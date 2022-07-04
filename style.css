@@ -1,0 +1,41 @@
+/* Here starts styles for our_story-section */
+
+
+/* DEBUG
+* { outline: solid 1px red; }
+*/
+
+
+/*********** General Styles Start ***********/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #00e0d0;
+    --lightGrey: #EBEBEB;
+    --darkGrey: #6a6565;
+}
+
+
+/* Here starts the codes for header */
+
+/* Here ends the code for header */
+
+
+/* Here starts the codes for food section */
+
+/* Here ends the code for food section */
+
+
+/* Here starts the codes for discover section */
+
+/* Here ends the code for discover section */
+
+
+/* Here starts the codes for footer */
+
+/* Here ends the code for footer */
