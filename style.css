@@ -15,6 +15,7 @@
     --darkGrey: #212529;
     --middleGrey: #777;
     --lightGrey: #919191;
+    --darkGrey: #767676;
 
 }
 
@@ -47,5 +48,74 @@ p {
 
 
 /* Here starts the codes for footer */
+footer {
+  background: #000;
+  color: var(--lightGrey);
 
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+footer .container .row:first-child {
+  margin-bottom: 3rem;
+}
+
+footer .footer_title {
+  color: #fff;
+}
+
+footer .container .row:first-child .nav {
+  --bs-nav-link-padding-x: 0;
+    margin-bottom: 3rem;
+}
+
+footer .nav .nav-item .nav-link {
+  color: var(--lightGrey);
+}
+
+footer .nav .nav-item .nav-link:hover {
+  color: var(--yellow);
+}
+
+footer form {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+footer form input {
+  width: 100%;
+  height: 50px;
+  background: #333333;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+}
+
+footer form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  border: none;
+  font-size: 1rem !important;
+  color: #000000;
+  background: #FFC000;
+  padding: 10px;
+  padding: 0 22px;
+  cursor: pointer;
+  border-radius: 0;
+  top: 0px;
+  right: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  font-weight: 900;
+}
+
+footer #social-nav .nav-item button {
+  background: var(--darkGrey);
+  margin-left: 1rem;
+}
 /* Here ends the code for footer */
