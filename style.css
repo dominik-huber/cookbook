@@ -12,7 +12,10 @@
 
 :root {
     --yellow: #FFC000;
-    --darkGrey: ##212529;
+    --darkGrey: #212529;
+    --middleGrey: #777;
+    --lightGrey: #919191;
+
 }
 
 body {
@@ -20,7 +23,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', Helvetica, sans-serif;
+}
+
+p {
+  color: var(--middleGrey);
 }
 
 
