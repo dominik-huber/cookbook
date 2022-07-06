@@ -70,6 +70,7 @@ footer .container .row:first-child .nav {
 }
 
 footer .nav .nav-item .nav-link {
+  font-size: 0.9rem;
   color: var(--lightGrey);
 }
 
@@ -112,10 +113,37 @@ footer form button {
   font-size: 14px;
   font-weight: 500;
   font-weight: 900;
+
+  transform: scale(0);
+}
+
+@keyframes moveMe {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button.moveMe{
+  animation: moveMe 3s;
+  transform-origin: 100% 50%;
+  animation-fill-mode: forwards;
 }
 
 footer #social-nav .nav-item button {
   background: var(--darkGrey);
   margin-left: 1rem;
+
+  transition: transform .3s ease-out;
+}
+
+footer #social-nav .nav-item button:hover {
+  background: var(--yellow);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1)
 }
 /* Here ends the code for footer */
