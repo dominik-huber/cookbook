@@ -132,6 +132,14 @@ button.moveMe{
   animation-fill-mode: forwards;
 }
 
+footer #copyright p {
+  margin-top: 1rem;
+}
+
+footer #social-nav {
+  margin-top: -1rem;
+}
+
 footer #social-nav .nav-item button {
   background: var(--darkGrey);
   margin-left: 1rem;
