@@ -15,19 +15,13 @@ email.addEventListener('input', function()
   }
 });
 
-
-// validate email after outlick
-document.addEventListener('click', function(event) {
-  var isClickInside = email.contains(event.target);
-
-  if (!isClickInside) {
-    //the click was outside the email, do something
-    if (regexEmail.test(email.value)) {
-      return;
-    } else {
-      alert ("invalid email");
-      return;
-    }
-
+// validate email onblur
+email.onblur = function() {
+  if (regexEmail.test(email.value)) {
+    return;
+  } else if (email.value =="") {
+    return;
+  } else {
+    alert ("invalid email");
   }
-});
+}
