@@ -33,7 +33,55 @@ p {
 
 
 /* Here starts the codes for header */
+.navitems  {
+  display: flex;
+  
+  list-style-type: none;
+  font-size: 1.0rem;
+  justify-content: space-around;
+}
 
+.navitems li {
+  padding: 20px;
+  flex-direction: row;
+  
+  
+  
+}
+
+
+
+.nav-container {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  
+}
+.header {
+
+  object-fit: contain;
+  font-family: 'Satisfy', Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  
+
+  background-image: url(./Images/Header.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover; 
+  height: 80vh; 
+  
+}
+
+.header .nav-link {
+  color:darkred;
+}
+
+
+li { 
+  color: black;
+}
 /* Here ends the code for header */
 
 
