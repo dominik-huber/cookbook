@@ -1,13 +1,10 @@
-/* Here starts styles for our_story-section */
-
-
 /* DEBUG
 * { outline: solid 1px red; }
 */
 
 
 /*********** General Styles Start ***********/
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
 
@@ -17,7 +14,6 @@
     --middleGrey: #777;
     --lightGrey: #919191;
     --darkGrey: #767676;
-
 }
 
 body {
@@ -34,30 +30,27 @@ p {
 
 
 /* Here starts the codes for header */
-.navitems  {
+#Navbar .navitems  {
   display: flex;
-  
+
   list-style-type: none;
   font-size: 1.0rem;
   justify-content: space-around;
 }
 
-.navitems li {
+#Navbar .navitems li {
   padding: 20px;
   flex-direction: row;
-  
-  
-  
 }
 
 
 
-.nav-container {
+#Navbar .nav-container {
   height: 100%;
   margin: 0 auto;
   position: relative;
   text-align: center;
-  
+
 }
 .header {
 
@@ -65,14 +58,13 @@ p {
   font-family: 'Satisfy', Helvetica, sans-serif;
   font-size: 50px;
   color: black;
-  
+
 
   background-image: url(./Images/Header.jpg);
   background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover; 
-  height: 80vh; 
-  
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
 }
 
 .header .nav-link {
@@ -80,7 +72,7 @@ p {
 }
 
 
-li { 
+.header li {
   color: black;
 }
 /* Here ends the code for header */
@@ -93,7 +85,7 @@ li {
   object-fit: cover;
 }
 
-.col-3 {
+.food .col-3 {
   margin-top: 10px;
 }
 
@@ -128,23 +120,23 @@ li {
 
 
 /* Here starts the codes for discover section */
-.col-xl-12 {
+.discover .col-xl-12 {
   display: flex;
   justify-content: center;
   height: 200px;
   margin-top: 50px;
 }
 
-.col-xl-12 h3 {
+.discover .col-xl-12 h3 {
   font-family: "Satisfy", cursive;
   font-size: 40px;
 }
 
-.btn {
+.discover .btn {
   border-radius: 100px;
 }
 
-.btn:hover {
+.discover .btn:hover {
   background-color:burlywood;
   padding: 10px;
   cursor: pointer;
